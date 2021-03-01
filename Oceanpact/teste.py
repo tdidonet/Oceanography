@@ -13,3 +13,5 @@ ds_bath = plotADCP(ds,
                  ax=ax)
 
         fig.savefig("%s_%s_ADCP_%s_%s_bins_%s_to_%s.png" %(thisStation,n,ds.sonar,ds.time[0].dt.strftime("%d%b%Y%H%M%S").values.tolist(),v,v+dz),bbox_inches='tight')
+
+        print("ok")
